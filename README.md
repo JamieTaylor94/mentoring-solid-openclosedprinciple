@@ -31,16 +31,13 @@ Bonus:
 
 - Document the differences between using an interface and an abstract base class.
 
-## Evidence for the matrix
+## Test your knowledge
 
 Create a file called open-closed.md
 
 Answer the following questions:
 
-What is the open closed principle?   
+What is the open closed principle?
+   
 Why do we use it?   
-
-Insert a link that goes to that file in the repo in your GitHub account.
-
-We will use this as evidence for the O of the SOLID principles.
 
