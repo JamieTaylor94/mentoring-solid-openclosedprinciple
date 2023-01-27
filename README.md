@@ -1,6 +1,8 @@
-# Open closed principle
+# Open-closed principle
 
-## What is the open closed principle?
+Repositories I have labelled "mentoring" are from a time that I was taking on mentoring responsibilities of other developers. I like the idea of providing a lesson situation followed by a practical example. The developer would work through each part and then create a document of their learnings and then we would have a one-to-one session to go over the practical together.
+
+## What is the open-closed principle?
 
 [Brief introduction](https://medium.com/@a.vathanaka/benefits-of-the-open-closed-principle-dc9284d47598)
 
@@ -12,11 +14,11 @@ Then how much simpler, cleaner and more manageable is it to create derived types
 
 ## Practical 
 
-You work abroad as a greeter for a nightclub which is miles more interesting than writing code. The problem is you need to be able to greet in multiple languages. This application has been written by a new developer who has not had your extensive training in the solid principles. 
+You work abroad as a greeter for a nightclub which is miles more interesting than writing code. The problem is you need to be able to greet in multiple languages. This application has been written by a new developer who has not had extensive training in solid principles. 
 
-The naughty developer broke the open closed principle by adding a switch statement to the Greet method to account for the French, Spanish and Italian languages (previously Greet() returned "Hello". This means that any additional greetings will need adding to the greet method and the switch statement will become hard to manage.
+The naughty developer broke the open-closed principle by adding a switch statement to the Greet method to account for the French, Spanish and Italian languages (previously Greet() returned "Hello". This means that any additional greetings will need to be added to the greet method and the switch statement will become hard to manage.
 
-Your task is to take this application and apply the open closed principle to it.
+Your task is to take this application and apply the open-closed principle to it.
 
 1.) Extract an interface IGreeter.cs   
 2.) Create derived classes which are specific to the new languages  
@@ -37,7 +39,7 @@ Create a file called open-closed.md
 
 Answer the following questions:
 
-What is the open closed principle?
+What is the open-closed principle?
    
 Why do we use it?   
 
